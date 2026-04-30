@@ -189,7 +189,7 @@ const Rsvp = () => {
                   required
                 />
 
-                <button className="btn btn-primary w-100" disabled={isLoading}>
+                <button className="btn btn-custom w-100" disabled={isLoading}>
                   {isLoading ? "Mengirim..." : "Kirim"}
                 </button>
               </form>

@@ -92,9 +92,9 @@ function App() {
             style={{ width: '50px', height: '50px' }}
           >
             {isPlaying ? (
-              <i className="bi bi-pause-fill fs-5 text-primary"></i>
+              <i className="bi bi-pause-fill fs-5 text-custom"></i>
             ) : (
-              <i className="bi bi-play-fill fs-5 text-primary"></i>
+              <i className="bi bi-play-fill fs-5 text-custom"></i>
             )}
           </button>
         </>
