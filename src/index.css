@@ -1,0 +1,17 @@
+/* index.css */
+html {
+  scroll-behavior: smooth; /* Cadangan jika JS gagal */
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-serif {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Utility class untuk transisi halus */
+.transition-all {
+  transition: all 0.3s ease-in-out;
+}

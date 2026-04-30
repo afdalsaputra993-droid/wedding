@@ -1,0 +1,143 @@
+/* src/assets/styles/_variables.scss */
+
+// ================================
+// 🎨 COLOR SYSTEM (WEDDING ELEGANT)
+// ================================
+
+// --- PRIMARY COLORS ---
+$primary-color: #7A8C5A;       // Sage Green (soft & elegant)
+$secondary-color: #C9A74E;     // Gold (premium look)
+
+// --- TEXT COLORS ---
+$text-dark: #3E322B;           // Dark Brown (utama)
+$text-light: #8A817C;          // Muted text
+$text-white: #FFFFFF;
+
+// --- BACKGROUND COLORS ---
+$bg-cream: #F6F2EA;            // Cream warm
+$bg-soft-cream: #FDFBF7;       // Lebih terang (gradient)
+$bg-white: #FFFFFF;
+
+// --- BORDER & DIVIDER ---
+$border-color: #E8E1D5;        // Soft border
+$border-gold: rgba(201, 167, 78, 0.4);
+
+// --- SHADOW ---
+$shadow-soft: 0 8px 20px rgba(0, 0, 0, 0.05);
+$shadow-medium: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+// ================================
+// 🔤 TYPOGRAPHY
+// ================================
+
+$font-heading: 'Playfair Display', serif;
+$font-body: 'Poppins', sans-serif;
+
+// ================================
+// 🌐 ROOT CSS VARIABLES
+// ================================
+
+:root {
+  /* 🎨 COLORS */
+  --primary-color: #7A8C5A;
+  --secondary-color: #C9A74E;
+
+  --text-main: #3E322B;
+  --text-muted: #8A817C;
+  --text-white: #FFFFFF;
+
+  --bg-body: #F6F2EA;
+  --bg-soft: #FDFBF7;
+  --bg-card: #FFFFFF;
+
+  --border-color: #E8E1D5;
+  --border-gold: rgba(201, 167, 78, 0.4);
+
+  /* 🌫 SHADOW */
+  --shadow-soft: 0 8px 20px rgba(0, 0, 0, 0.05);
+  --shadow-medium: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+  /* 🎯 RADIUS */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+}
+
+// ================================
+// 🎯 UTILITY CLASSES (OPTIONAL)
+// ================================
+
+// --- TEXT ---
+.text-gold {
+  color: var(--secondary-color);
+}
+
+.text-muted {
+  color: var(--text-muted);
+}
+
+// --- BACKGROUND ---
+.bg-cream {
+  background-color: var(--bg-body);
+}
+
+.bg-soft {
+  background-color: var(--bg-soft);
+}
+
+.bg-card {
+  background-color: var(--bg-card);
+}
+
+// --- BORDER ---
+.border-soft {
+  border: 1px solid var(--border-color);
+}
+
+.border-gold {
+  border: 1px solid var(--border-gold);
+}
+
+// --- SHADOW ---
+.shadow-soft {
+  box-shadow: var(--shadow-soft);
+}
+
+.shadow-medium {
+  box-shadow: var(--shadow-medium);
+}
+
+// --- BUTTON ---
+.btn-primary-custom {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 50px;
+  padding: 10px 24px;
+  border: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+
+  &:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+  }
+}
+
+// --- GOLD TEXT GRADIENT (PREMIUM) ---
+.gold-text {
+  background: linear-gradient(45deg, #C9A74E, #E5C97B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+// ================================
+// 🌅 GLOBAL BACKGROUND (OPTIONAL)
+// ================================
+
+body {
+  background: linear-gradient(
+    to bottom,
+    #F6F2EA,
+    #FDFBF7
+  );
+}
